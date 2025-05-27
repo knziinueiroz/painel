@@ -2,7 +2,7 @@
     "aim": [
         {
             "name": "Aimbot Extreme",
-            "type": "checkbox",
+            "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefireth",
             "path_file": "/Aimbot Legit",
