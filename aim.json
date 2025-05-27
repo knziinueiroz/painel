@@ -1,7 +1,7 @@
 {
     "aim": [
         {
-            "name": "Aimbot Extreme V1",
+            "name": "Aimbot Extreme V1 ATT",
             "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefireth",
