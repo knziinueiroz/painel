@@ -1,5 +1,5 @@
 {
-    "aimss": [
+    "aims": [
         {
             "name": "Aimbot Extreme V1 ATT2",
             "type": "switch",
@@ -43,7 +43,7 @@
             "enabled": "true"
         }
     ],
-    "visual1": [
+    "visual": [
         {
             "name": "Chams Transparent V1",
             "type": "switch",
