@@ -45,7 +45,21 @@
     ],
     "visual": [
         {
-            "name": "Chhams Transparent",
+            "name": "Chams Transparent",
+            "type": "switch",
+            "type_file": "link",
+            "type_free_fire": "com.dts.freefireth",
+            "path_file": "/Aimbot Legit",
+            "path_inject": "",
+            "name_paste": "knastesew",
+            "name_file": "/knastesew",
+            "name_file_zip": "/aimbot.zip",
+            "link_file": "https://firebasestorage.googleapis.com/v0/b/fir3external.appspot.com/o/knastesew.zip?alt=media&token=05dab3a4-2e22-418c-b0a3-609518b91184",
+            "version_free_fire": "1.900.1",
+            "enabled": true
+        },
+        {
+            "name": "Chams Vermelho",
             "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefireth",
