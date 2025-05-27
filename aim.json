@@ -43,7 +43,7 @@
             "enabled": "true"
         }
     ],
-    "visual": [
+    "visual1": [
         {
             "name": "Chams Transparent V1",
             "type": "switch",
