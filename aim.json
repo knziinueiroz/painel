@@ -16,7 +16,7 @@
             "enabled": "true"
         },
         {
-            "name": "Aimbot Legit",
+            "name": "Aimbot Legit 1",
             "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefiremax",
