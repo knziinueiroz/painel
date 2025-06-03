@@ -50,7 +50,7 @@
         {
             "name": "Chams Transparent V1",
             "type": "switch",
-            "type_file": "link",
+            "type_file": "linkss",
             "type_free_fire": "com.dts.freefireth",
             "path_file": "/Aimbot Legit",
             "path_inject": "",
@@ -64,7 +64,7 @@
         {
             "name": "Chams Vermelho",
             "type": "switch",
-            "type_file": "link",
+            "type_file": "linksss",
             "type_free_fire": "com.dts.freefireth",
             "path_file": "/Aimbot Legit",
             "path_inject": "",
