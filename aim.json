@@ -3,7 +3,7 @@
         {
             "name": "Aimbot Extreme Texte.v1",
             "type": "switch",
-            "type_file": "link",
+            "type_file": "assets",
             "type_free_fire": "com.dts.freefiremax",
             "path_file": "/Aimbot Legit",
             "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
