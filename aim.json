@@ -1,12 +1,12 @@
 {
     "aim": [
         {
-            "name": "Aimbot Extreme V!",
+            "name": "Aimbot Extreme Texte.v1",
             "type": "switch",
             "type_file": "link",
-            "type_free_fire": "com.dts.freefireth",
+            "type_free_fire": "com.dts.freefiremax",
             "path_file": "/Aimbot Legit",
-            "path_inject": "/Android/data/com.dts.freefireth/files/il2cpp/Metadata/",
+            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
             "name_paste": "knastesew",
             "name_file": "/knastesew",
             "name_file_zip": "/aimbot.zip",
