@@ -1,5 +1,20 @@
 {
     "aim": [
+         {
+            "name": "Aimbot Rage",
+            "type": "switch",
+            "type_file": "link",
+            "type_free_fire": "com.dts.freefiremax",
+            "path_file": "/Aimbot Legit",
+            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
+            "name_paste": "knastesew",
+            "name_file": "/knastesew",
+            "name_file_zip": "/aimbot.zip",
+            "link_file": "https://painel-lyart.vercel.app/geek.zip",
+            "version_free_fire": "1.900.1",
+             "status": "false",
+            "enabled": "true"
+        },
         {
             "name": "Aimbot Legit",
             "type": "switch",
@@ -17,18 +32,19 @@
             "enabled": "true"
         },
         {
-            "name": "Aimbot Rage",
+            "name": "Aimbot Legit V2",
             "type": "switch",
-            "type_file": "link",
+            "type_file": "assets",
             "type_free_fire": "com.dts.freefiremax",
             "path_file": "/Aimbot Legit",
-            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
+            "path_inject": "/storage/emulated/0/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
             "name_paste": "knastesew",
             "name_file": "/knastesew",
             "name_file_zip": "/aimbot.zip",
+            "name_assets": "AimLocks",
             "link_file": "https://painel-lyart.vercel.app/geek.zip",
             "version_free_fire": "1.900.1",
-             "status": "false",
+            "status": "false",
             "enabled": "true"
         },
         {
