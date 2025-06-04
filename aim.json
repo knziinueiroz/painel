@@ -46,6 +46,21 @@
              "status": "false",
             "enabled": "true"
         },
+   {
+            "name": "No Recoil",
+            "type": "switch",
+            "type_file": "link",
+            "type_free_fire": "com.dts.freefiremax",
+            "path_file": "/Aimbot Legit",
+            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
+            "name_paste": "knastesew",
+            "name_file": "/knastesew",
+            "name_file_zip": "/aimbot.zip",
+            "link_file": "https://painel-lyart.vercel.app/geek.zip",
+            "version_free_fire": "1.900.1",
+             "status": "false",
+            "enabled": "true"
+        },
             
 {
             "name": "Aimbot Legit",
