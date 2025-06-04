@@ -67,18 +67,20 @@
             "enabled": "true"
         },
    {
-            "name": "No Recoil",
+               "name": "No Recoil",
             "type": "switch",
             "type_file": "assets",
             "type_free_fire": "com.dts.freefireth",
             "path_file": "/Aimbot Legit",
-            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
+            "name_assets": "Aimbotlegit",
+            "path_inject": "/storage/emulated/0/Android/data/com.dts.freefireth/files/contentcache/",
             "name_paste": "knastesew",
             "name_file": "/knastesew",
             "name_file_zip": "/aimbot.zip",
+            "name_assets": "Aimbotrage",
             "link_file": "https://painel-lyart.vercel.app/geek.zip",
             "version_free_fire": "1.900.1",
-             "status": "false",
+            "status": "false",
             "enabled": "true"
         }
     ],
