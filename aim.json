@@ -1,7 +1,7 @@
 {
     "aim": [
         {
-            "name": "Aimbot Extreme Texte.v1",
+            "name": "Aimbot Legit",
             "type": "switch",
             "type_file": "assets",
             "type_free_fire": "com.dts.freefiremax",
@@ -17,7 +17,7 @@
             "enabled": "true"
         },
         {
-            "name": "aot Legit 12",
+            "name": "Aimbot Rage",
             "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefiremax",
@@ -31,6 +31,22 @@
              "status": "false",
             "enabled": "true"
         },
+        {
+            "name": "Aim Lock",
+            "type": "switch",
+            "type_file": "link",
+            "type_free_fire": "com.dts.freefiremax",
+            "path_file": "/Aimbot Legit",
+            "path_inject": "/Android/data/com.dts.freefiremax/files/il2cpp/Metadata/",
+            "name_paste": "knastesew",
+            "name_file": "/knastesew",
+            "name_file_zip": "/aimbot.zip",
+            "link_file": "https://painel-lyart.vercel.app/geek.zip",
+            "version_free_fire": "1.900.1",
+             "status": "false",
+            "enabled": "true"
+        },
+            
 {
             "name": "Aimbot Legit",
             "type": "switch",
