@@ -48,7 +48,7 @@
             "enabled": "true"
         },
         {
-            "name": "Aim Lock",
+            "name": "Aimlock",
             "type": "switch",
             "type_file": "link",
             "type_free_fire": "com.dts.freefiremax",
