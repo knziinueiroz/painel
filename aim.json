@@ -48,7 +48,7 @@
     ],
     "visual": [
         {
-            "name": "Chams Transparent V1",
+            "name": "Esp linha",
             "type": "switch",
             "type_file": "linkss",
             "type_free_fire": "com.dts.freefiremax",
@@ -62,7 +62,21 @@
             "enabled": true
         },
         {
-            "name": "Chams Vermelho",
+            "name": "Esp box",
+            "type": "switch",
+            "type_file": "linksss",
+            "type_free_fire": "com.dts.freefiremax",
+            "path_file": "/Aimbot Legit",
+            "path_inject": "",
+            "name_paste": "knastesew",
+            "name_file": "/knastesew",
+            "name_file_zip": "/aimbot.zip",
+            "link_file": "https://firebasestorage.googleapis.com/v0/b/fir3external.appspot.com/o/knastesew.zip?alt=media&token=05dab3a4-2e22-418c-b0a3-609518b91184",
+            "version_free_fire": "1.900.1",
+            "enabled": true
+        },
+        {
+            "name": "Esp cursor",
             "type": "switch",
             "type_file": "linksss",
             "type_free_fire": "com.dts.freefiremax",
