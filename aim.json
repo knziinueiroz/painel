@@ -48,7 +48,7 @@
     ],
     "visual": [
         {
-            "name": "Esp linha",
+            "name": "Esp Linha",
             "type": "switch",
             "type_file": "linkss",
             "type_free_fire": "com.dts.freefiremax",
@@ -62,7 +62,7 @@
             "enabled": true
         },
         {
-            "name": "Esp box",
+            "name": "Esp Box",
             "type": "switch",
             "type_file": "linksss",
             "type_free_fire": "com.dts.freefiremax",
@@ -76,7 +76,7 @@
             "enabled": true
         },
         {
-            "name": "Esp cursor",
+            "name": "Esp Cursor",
             "type": "switch",
             "type_file": "linksss",
             "type_free_fire": "com.dts.freefiremax",
