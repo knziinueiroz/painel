@@ -18,7 +18,7 @@
     },
     {
         "name": "HeadTrick Ultra",
-        "type": "switch",
+        "type": "checkbox",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/HeadTrick",
@@ -34,7 +34,7 @@
     },
     {
         "name": "Aim Training Mode",
-        "type": "switch",
+        "type": "checkbox",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/Training",
@@ -50,7 +50,7 @@
     },
     {
         "name": "Recoil Visualizer",
-        "type": "switch",
+        "type": "checkbox",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/Recoil",
