@@ -2,7 +2,7 @@
 "aim": [
     {
         "name": "HeadTrick Rage",
-        "type": "switch",
+        "type": "checkbox",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/HeadTrick",
