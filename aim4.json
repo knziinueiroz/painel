@@ -49,7 +49,7 @@
         "enabled": "true"
     },
       {
-        "name": "Aimbot Legit - IA",
+        "name": "Aimbot Legit V2 AI",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
