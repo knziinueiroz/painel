@@ -1,8 +1,8 @@
 {
 "aim": [
     {
-        "name": "HeadTrick Rage",
-        "type": "checkbox",
+        "name": "Aimbot Brutal",
+        "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/HeadTrick",
@@ -17,8 +17,8 @@
         "enabled": "true"
     },
     {
-        "name": "HeadTrick Ultra",
-        "type": "checkbox",
+        "name": "Aimbot Rage",
+        "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/HeadTrick",
@@ -33,8 +33,24 @@
         "enabled": "true"
     },
     {
-        "name": "Aim Training Mode",
-        "type": "checkbox",
+        "name": "Aimbot Legit",
+        "type": "switch",
+        "type_file": "assets",
+        "type_free_fire": "com.dts.freefireth",
+        "path_file": "/Training",
+        "name_assets": "AimTraining",
+        "path_inject": "/storage/emulated/0/Android/data/com.dts.freefireth/files/contentcache/",
+        "name_paste": "aimtraining",
+        "name_file": "/aimtraining",
+        "name_file_zip": "/aimtraining.zip",
+        "link_file": "https://painel-lyart.vercel.app/aimtraining.zip",
+        "version_free_fire": "1.900.1",
+        "status": "false",
+        "enabled": "true"
+    },
+      {
+        "name": "Aimbot Legit - IA",
+        "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/Training",
@@ -49,8 +65,8 @@
         "enabled": "true"
     },
     {
-        "name": "Recoil Visualizer",
-        "type": "checkbox",
+        "name": "No Recoil",
+        "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
         "path_file": "/Recoil",
