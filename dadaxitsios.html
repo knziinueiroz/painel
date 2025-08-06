@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Painel Aimbot</title>
+<style>
+    body {
+        background-color: #0e0e0e;
+        font-family: Arial, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        color: white;
+    }
+
+    .painel {
+        width: 420px;
+        height: 300px;
+        background-color: #0f0f0f;
+        border: 1px solid #00ffff;
+        border-radius: 15px;
+     ;
+        display: flex;
+        overflow: hidden;
+        position: relative;
+    }
+
+    /* Menu lateral */
+    .menu-lateral {
+        width: 120px;
+        background-color: #111;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 15px;
+        border-right: 1px solid #00ffff44;
+    }
+
+    .menu-item {
+        width: 100%;
+        text-align: center;
+        padding: 15px 0;
+        cursor: pointer;
+        color: #888;
+        font-size: 14px;
+        transition: 0.3s;
+    }
+    .menu-item:hover, .menu-item.ativo {
+        background-color: #00ffff22;
+        color: #00ffff;
+    }
+
+    /* Conteúdo principal */
+    .conteudo {
+        flex: 1;
+        padding: 15px;
+        overflow-y: auto;
+    }
+
+    .secao h3 {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #00ffffaa;
+    }
+
+    .item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 8px 0;
+    }
+
+    /* Switch estilo neon */
+    .switch {
+        position: relative;
+        width: 40px;
+        height: 20px;
+    }
+    .switch input {
+        display: none;
+    }
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0; left: 0;
+        right: 0; bottom: 0;
+        background-color: #333;
+        border-radius: 34px;
+        transition: 0.3s;
+      ;
+    }
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 14px;
+        width: 14px;
+        left: 3px;
+        bottom: 3px;
+        background-color: white;
+        transition: 0.3s;
+        border-radius: 50%;
+    }
+    input:checked + .slider {
+        background-color: #00ffff;
+ ;
+    }
+    input:checked + .slider:before {
+        transform: translateX(20px);
+    }
+
+    /* Slider FOV */
+    .fov {
+        width: 100%;
+        margin-top: 5px;
+    }
+
+    .valor-fov {
+        color: #00ffff;
+        font-weight: bold;
+    }
+
+    /* Esconde telas que não estão ativas */
+    .tela {
+        display: none;
+    }
+    .tela.ativa {
+        display: block;
+    }
+</style>
+</head>
+<body>
+
+<div class="painel">
+    <!-- Menu lateral -->
+    <div class="menu-lateral">
+        <div class="menu-item ativo" data-tela="aimbot">Aimbot</div>
+        <div class="menu-item" data-tela="visual">Visual</div>
+        <div class="menu-item" data-tela="config">Config</div>
+        <div class="menu-item" data-tela="cliente">Cliente</div>
+    </div>
+
+    <!-- Conteúdo -->
+    <div class="conteudo">
+
+        <!-- Tela AIMBOT -->
+        <div class="tela ativa" id="aimbot">
+            <div class="secao">
+                <h3>AIMBOT</h3>
+                <div class="item">
+                    <span>Aimbot Brutal</span>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="item">
+                    <span>Aimbot Rage</span>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="item" style="flex-direction: column; align-items: flex-start;">
+                    <span>Ajustar FOV: <span class="valor-fov" id="fovValor">180</span></span>
+                    <input type="range" min="0" max="360" value="180" class="fov" id="fovRange">
+                </div>
+                <div class="item">
+                    <span>Aimbot Legit</span>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="item">
+                    <span>Aimbot Legit V2 AI</span>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+                <div class="item">
+                    <span>No Recoil</span>
+                    <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tela VISUAL -->
+        <div class="tela" id="visual">
+            <h3>VISUAL</h3>
+            <div class="item">
+                <span>Wallhack</span>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            </div>
+            <div class="item">
+                <span>ESP Inimigos</span>
+                <label class="switch"><input type="checkbox"><span class="slider"></span></label>
+            </div>
+        </div>
+
+        <!-- Tela CONFIG -->
+        <div class="tela" id="config">
+            <h3>CONFIG</h3>
+            <p>Aqui você pode configurar atalhos e preferências.</p>
+        </div>
+
+        <!-- Tela CLIENTE -->
+        <div class="tela" id="cliente">
+            <h3>CLIENTE</h3>
+            <p>Status: <span style="color:#00ff00;">Permanente</span></p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // Alternar entre abas
+    const menuItems = document.querySelectorAll(".menu-item");
+    const telas = document.querySelectorAll(".tela");
+
+    menuItems.forEach(item => {
+        item.addEventListener("click", () => {
+            menuItems.forEach(m => m.classList.remove("ativo"));
+            item.classList.add("ativo");
+
+            const telaAlvo = item.dataset.tela;
+            telas.forEach(t => {
+                t.classList.remove("ativa");
+                if (t.id === telaAlvo) t.classList.add("ativa");
+            });
+        });
+    });
+
+    // Atualiza valor do FOV ao mover o slider
+    const fovRange = document.getElementById('fovRange');
+    const fovValor = document.getElementById('fovValor');
+
+    fovRange.addEventListener('input', () => {
+        fovValor.textContent = fovRange.value;
+    });
+</script>
+
+</body>
+</html>
