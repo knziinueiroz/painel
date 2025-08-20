@@ -21,7 +21,7 @@
         "name": "Hs pescoço",
         "type": "switch",
         "type_file": "assets",
-        "type_free_fire": "com.dts.freefirethmax",
+        "type_free_fire": "com.dts.freefiremax",
         "path_file": "/HeadTrick",
         "name_assets": "hs_pescoço.bin",
         "path_inject": "/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.dts.freefiremax/files/contentcache/Compulsory/android/gameassetbundles/",
