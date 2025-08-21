@@ -223,15 +223,15 @@
         "status": "false",
         "enabled": "true"
     },
-        {
-        "name": "Antena Mão",
+     {
+        "name": "Antena Cabeça",
         "type": "switch",
         "type_file": "assets",
-        "type_free_fire": "com.dts.freefiremax",
+        "type_free_fire": "com.dts.freefireth",
         "path_file": "/HeadTrick",
-        "name_assets": "antena_mão.bin",
-        "path_inject": "/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.dts.freefiremax/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
-        "path_inject_root": "/data/user/0/com.dts.freefiremax/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
+        "name_assets": "antena_cabeça.bin",
+        "path_inject": "/data/user/0/com.waxmoon.ma.gp/rootfs/data/user/0/com.dts.freefireth/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
+        "path_inject_root": "/data/user/0/com.dts.freefireth/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
         "name_paste": "antena",
         "name_file": "/knastesew",
         "name_file_zip": "/headtrick_rage.zip",
@@ -240,7 +240,7 @@
         "status": "false",
         "enabled": "true"
     },
-            {
+        {
         "name": "Antena Cabeça",
         "type": "switch",
         "type_file": "assets",
