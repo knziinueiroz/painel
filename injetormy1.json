@@ -69,7 +69,7 @@
         "enabled": "true"
     },
     {
-        "name": "Hs na Peito",
+        "name": "Hs no Peito",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -86,7 +86,7 @@
         "enabled": "true"
     },
         {
-        "name": "Hs na Peito",
+        "name": "Hs no Peito",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -103,7 +103,7 @@
         "enabled": "true"
     },
      {
-        "name": "Hs no Barriga",
+        "name": "Hs na Barriga",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -120,7 +120,7 @@
         "enabled": "true"
     },
         {
-        "name": "Hs no barriga",
+        "name": "Hs na barriga",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
