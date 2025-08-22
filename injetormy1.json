@@ -256,8 +256,7 @@
         "version_free_fire": "1.900.1",
         "status": "false",
         "enabled": "true"
-    }
-        
+    },
 {
             "name": "Esp Crosshhair",
             "type": "switch",
