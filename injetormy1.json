@@ -137,7 +137,7 @@
         "enabled": "true"
     },
        {
-        "name": "Bala Mágica V1",
+        "name": "Magic Bullet V1",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -154,7 +154,7 @@
         "enabled": "true"
     },
       {
-        "name": "Bala Mágica V1",
+        "name": "Magic Bullet V1",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -171,7 +171,7 @@
         "enabled": "true"
     },
      {
-        "name": "Bala Mágica V2",
+        "name": "Magic Bullet V2",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -188,7 +188,7 @@
         "enabled": "true"
     },
      {
-        "name": "Bala Mágica V2",
+        "name": "Magic Bullet V2",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -207,7 +207,7 @@
 ],
     "visual": [
      {
-        "name": "Antena Mão",
+        "name": "Antena Hand",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -224,7 +224,7 @@
         "enabled": "true"
     },
      {
-        "name": "Antena Cabeça",
+        "name": "Antena Hand",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -241,7 +241,7 @@
         "enabled": "true"
     },
         {
-        "name": "Antena Cabeça",
+        "name": "Antena Head",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
