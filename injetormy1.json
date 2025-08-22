@@ -69,7 +69,7 @@
         "enabled": "true"
     },
     {
-        "name": "Aimbot no Rage",
+        "name": "Aimbot Rage",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -86,7 +86,7 @@
         "enabled": "true"
     },
         {
-        "name": "Aimbot no Rage",
+        "name": "Aimbot Rage",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
