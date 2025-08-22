@@ -258,7 +258,7 @@
         "enabled": "true"
     },
 {
-            "name": "Esp Crosshhair",
+            "name": "Esp Croshhair",
             "type": "switch",
             "type_file": "crosshair",
              "type_free_fire": "com.dts.freefireth",
