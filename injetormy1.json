@@ -1,7 +1,7 @@
 {
 "aim": [
     {
-        "name": "Hs Legit V1",
+        "name": "Aimbot Legit V1",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -18,7 +18,7 @@
         "enabled": "true"
     },
     {
-        "name": "Hs Legit V1",
+        "name": "Aimbot Legit V1",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -35,7 +35,7 @@
         "enabled": "true"
     },
    {
-        "name": "Hs Legit V2",
+        "name": "Aimbot Legit V2",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -52,7 +52,7 @@
         "enabled": "true"
     },
         {
-        "name": "Hs Legit V2",
+        "name": "Aimbot Legit V2",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -69,7 +69,7 @@
         "enabled": "true"
     },
     {
-        "name": "Hs no Peito",
+        "name": "Aimbot no Rage",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -86,7 +86,7 @@
         "enabled": "true"
     },
         {
-        "name": "Hs no Peito",
+        "name": "Aimbot no Rage",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
@@ -103,7 +103,7 @@
         "enabled": "true"
     },
      {
-        "name": "Hs na Barriga",
+        "name": "Aimbot Extreme",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -120,7 +120,7 @@
         "enabled": "true"
     },
         {
-        "name": "Hs na barriga",
+        "name": "Aimbot Extreme",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
