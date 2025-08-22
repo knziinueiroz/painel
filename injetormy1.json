@@ -224,7 +224,7 @@
         "enabled": "true"
     },
      {
-        "name": "Antena Hand",
+        "name": "Antena Head",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
