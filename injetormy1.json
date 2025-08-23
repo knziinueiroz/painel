@@ -244,7 +244,7 @@
         {
         "name": "Antena Head",
         "type": "switch",
-        "type_file": "assets",
+        "type_file": "checkbox",
         "type_free_fire": "com.dts.freefiremax",
         "path_file": "/HeadTrick",
         "name_assets": "antena_cabeça_max.bin",
