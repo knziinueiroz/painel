@@ -289,7 +289,7 @@
         {
             "name": "Exibir FOV",
             "type": "switch",
-            "type_file": "cicle",
+            "type_file": "circle",
              "type_free_fire": "com.dts.freefireth",
             "path_file": "/Aimbot Legit",
             "path_inject": "",
