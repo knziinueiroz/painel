@@ -271,7 +271,7 @@
             "link_file": "https://firebasestorage.googleapis.com/v0/b/fir3external.appspot.com/o/knastesew.zip?alt=media&token=05dab3a4-2e22-418c-b0a3-609518b91184",
             "version_free_fire": "1.900.1",
             "enabled": true
-        }
+        },
         {
             "name": "Esp Croshhair",
             "type": "switch",
@@ -285,7 +285,7 @@
             "link_file": "https://firebasestorage.googleapis.com/v0/b/fir3external.appspot.com/o/knastesew.zip?alt=media&token=05dab3a4-2e22-418c-b0a3-609518b91184",
             "version_free_fire": "1.900.1",
             "enabled": true
-        }
+        },
         {
             "name": "Exibir FOV",
             "type": "switch",
