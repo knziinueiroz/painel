@@ -309,7 +309,7 @@
         },
         {
             "name": "Esp Croshhair",
-            "type": "switch",
+            "type": "switchH",
             "type_file": "crosshair",
              "type_free_fire": "com.dts.freefiremax",
             "path_file": "/Aimbot Legit",
