@@ -207,8 +207,8 @@
 ],
     "visual": [
 
-           {
-        "name": "Aimbot + Antena Mão",
+        {
+        "name": "Bypass Login",
         "type": "switch",
         "type_file": "assets",
         "type_free_fire": "com.dts.freefireth",
@@ -225,6 +225,23 @@
         "enabled": "true"
     },
 
+           {
+        "name": "Aimbot e Antena Mão",
+        "type": "switch",
+        "type_file": "assets",
+        "type_free_fire": "com.dts.freefireth",
+        "path_file": "/HeadTrick",
+        "name_assets": "aimbot_antena_mão.bin",
+        "path_inject": "/data/user/0/com.tencent.igce/Plugin/com.dts.freefireth/data/com.dts.freefireth/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
+        "path_inject_root": "/data/user/0/com.dts.freefireth/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
+        "name_paste": "antena",
+        "name_file": "/knastesew",
+        "name_file_zip": "/headtrick_rage.zip",
+        "link_file": "https://painel-lyart.vercel.app/geek.zip",
+        "version_free_fire": "1.900.1",
+        "status": "false",
+        "enabled": "true"
+    },
      {
         "name": "Antena Head",
         "type": "switch",
