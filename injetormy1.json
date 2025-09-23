@@ -277,7 +277,7 @@
         "enabled": "true"
     },
         {
-        "name": "Antena Head",
+        "name": "Antena Head Teste",
         "type": "switch",
         "type_file": "checkbox",
         "type_free_fire": "com.dts.freefiremax",
