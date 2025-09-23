@@ -277,13 +277,13 @@
         "enabled": "true"
     },
         {
-        "name": "Antena Head Te",
+        "name": "Antena Head",
         "type": "switch",
         "type_file": "checkbox",
         "type_free_fire": "com.dts.freefiremax",
         "path_file": "/HeadTrick",
         "name_assets": "antena_cabeça_max.bin",
-        "path_inject": "./files/contentcache/Compulsory/android/gameassetbundles/avatar",
+        "path_inject": "files/contentcache/Compulsory/android/gameassetbundles/avatar",
         "path_inject_root": "/data/user/0/com.dts.freefiremax/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
         "name_paste": "antena",
         "name_file": "/knastesew",
