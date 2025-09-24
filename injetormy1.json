@@ -230,7 +230,7 @@
         "type_file": "assets",
         "type_free_fire": "com.dts.freefiremax",
         "path_file": "/HeadTrick",
-        "name_assets": "bypass_ff_normal.bin",
+        "name_assets": "bypass_ff_max.bin",
         "path_inject": "files/contentcache/Compulsory/android/gameassetbundles/avatar",
         "path_inject_root": "/data/user/0/com.dts.freefireth/files/contentcache/Compulsory/android/gameassetbundles/avatar/",
         "name_paste": "antena",
